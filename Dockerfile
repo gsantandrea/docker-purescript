@@ -14,4 +14,4 @@ EXPOSE 1234
 
 WORKDIR $CONTAINERHOME
 # Run the specified command within the container.
-CMD [ "bash", "" ]
+CMD [ "/bin/bash", "" ]
